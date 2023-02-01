@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { updateTaskState } from "../lib/store";
 import Task from "./Task";
 
-export default function TaskList({ onArchiveTask, onPinTask }) {
+export default function TaskList() {
   const LoadingRow = (
     <div className="loading-item">
       <span className="glow-checkbox" />
